@@ -1,0 +1,55 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+html,
+body {
+  overflow: hidden;
+}
+body {
+  background: #26b686;
+}
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#parent {
+  width: 40vw;
+  height: 40vh;
+  background: #26b686;
+  border-radius: 2px;
+  border: 9px solid #26b686;
+  box-shadow: -3px -3px 3px 0px #2bca95, 3px 3px 3px 0px #20976f,
+    inset -3px -3px 3px 0px #2bca95, inset 3px 3px 3px 0px #20976f;
+  padding: 20px 50px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+#parent li {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.582);
+}
+.page {
+  background: none;
+  outline: none;
+  border: none;
+  background: #26b686;
+  border-radius: 50%;
+  padding: 15px 20px;
+  margin: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  box-shadow: -1px -1px 3px 0px #2bcf99, 1px 1px 3px 0px #1a7c5c;
+  box-sizing: border-box;
+}
+.page:active {
+  box-shadow: -1px -1px 3px 0px #28c28f, 1px 1px 3px 0px #1e8f69,
+    inset -1px -1px 3px 0px #28c28f, inset 1px 1px 3px 0px #1e8f69;
+}
+/* This code official by narayan neupane */
